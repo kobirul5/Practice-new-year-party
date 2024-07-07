@@ -1,0 +1,40 @@
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: normal;
+    font-style: normal;
+  }
+ 
+
+  /* party section  */
+  .banner{
+    background-image: linear-gradient(180deg, #070218, transparent),url(../images/Banner\ Image.png);
+    position: relative;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+
+  }
+
+.party-banner{
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    
+  }
+
+.new-year{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+.fonts-new-year{
+    margin-top: 0px;
+    font-size: 72px;
+}
+
+/* discount section */
