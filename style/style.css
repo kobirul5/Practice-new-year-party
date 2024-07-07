@@ -108,15 +108,31 @@
 }
 
 .welcome-content h1{
-  padding: 126px;
-  text-align: left, top;
+  margin-left: 126px;
+  margin-bottom: 0px;
+ 
   font-size: 64px;
   font-weight: 800;
 }
 
 .welcome-container p{
-  padding-left: 126px;
+  margin: 126px;
+  margin-top: 0px;
   text-align: left;
   font-size: 18px;
   font-weight: 400;
+}
+
+
+.btn-primary{
+  margin-left: 126px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  
+}
+
+section div img{
+  margin-right: 138px;
 }
