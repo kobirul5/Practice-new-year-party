@@ -218,10 +218,122 @@ section div img{
 }
 
 
-.offer-paragrah{
-  height: 255px;
-  width: 393px;
+  
 }
 .new-best-offer{
+margin-right: 70px;
+display: flex;
+flex-direction: column;
+justify-content: left;
+}
 
+.new-best-offer .best{
+  font-weight: 500;
+  font-size: 24px;
+  color:#FF0000;
+}
+
+.new-best-offer h2{
+  font-weight: 800;
+  font-size: 48px;
+  color:#070211;
+}
+
+.new-best-offer p{
+  font-weight: 400;
+  font-size: 20px;
+  color: #0702118f;
+}
+
+
+.img-offer{
+  height: 463px;
+  width: 463px;
+  border: 10px solid #FF0000;
+  border-radius: 50%;
+ 
+}
+
+
+.img-offer img{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 50px;
+  
+}
+
+
+.offer-paragrah{
+  margin-left: 118px;
+display: flex;
+flex-direction: column;
+justify-content: left;
+}
+
+.offer-paragrah h2{
+  margin: 0;
+  font-weight: 800;
+  font-size: 48px;
+  color:#FF0000;
+}
+
+.offer-paragrah p{
+  font-weight: 400;
+  font-size: 20px;
+  color: #0702118f;
+}
+
+
+/* akhne akta section hobe */
+
+
+
+
+/* start gift section */
+.gift-container{
+  margin: 120px 140px;
+  width: 1320;
+  border: #0a0318 solid;
+ 
+}
+.gift-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.img-rect{
+  position: relative;
+  
+}
+
+.img-rect img {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  object-fit: cover;
+} {
+  position: relative;
+}
+
+.img-rect img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  object-fit: cover;
 }
