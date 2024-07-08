@@ -93,9 +93,10 @@
 .welcome-container{
   margin: 0 auto;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-image: url(../images/Vectorrr.png);
+  background-image:linear-gradient(90deg, #0a0318 , #07021100), url(../images/Vectorrr.png);
   border-radius: 20px;
   max-width: 1320px;
   height: 600px;
@@ -110,29 +111,51 @@
 
 }
 
-.welcome-content h1{
-  margin-left: 126px;
-  margin-bottom: 0px;
- 
-  font-size: 64px;
-  font-weight: 800;
-}
-
 .welcome-container p{
-  margin: 126px;
-  margin-top: 0px;
+  display: flex;
+  justify-content: left;
   text-align: left;
   font-size: 18px;
   font-weight: 400;
 }
 
+.welcome-content h1{
+  display: flex;
+  margin-top: 0%;
+  margin-left: 126px;
+  margin-bottom: 0px;
+  font-size: 64px;
+  font-weight: 800;
+}
+
+
+
+.welcome-container p{
+  margin-bottom:0 ;
+  margin-top: 24px;
+  margin-left: 126px;
+}
+
+.btn{
+  display: flex;
+  margin: 0;
+}
 
 .btn-primary{
-  margin-left: 126px;
+  margin-top: 70px;
+  margin-left: 158px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
   color: white;
   background-color: transparent;
   border: none;
   font-size: 20px;
+
+
   
 }
 
@@ -172,11 +195,33 @@ section div img{
   background-color: red;
   color: white;
   padding: 10px;
-     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-    font-variation-settings:
-      "slnt" 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
     
   }
+
+  /* start Offer section  */
+
+.offer-container{
+  margin: 120px 140px;
+}
+
+.offer-content{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.offer-paragrah{
+  height: 255px;
+  width: 393px;
+}
+.new-best-offer{
+
+}
